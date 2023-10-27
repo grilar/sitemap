@@ -1,0 +1,20 @@
+{
+	"name": "grilar/sitemap",
+	"description": "Sitemap package for Laravel.",
+	"license": "MIT",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"Grilar\\Sitemap\\": "src"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Grilar\\Sitemap\\Providers\\SitemapServiceProvider"
+			]
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
